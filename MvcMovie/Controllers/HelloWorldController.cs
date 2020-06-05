@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Text.Encodings.Web;
 
 namespace MvcMovie.Controllers
 {
@@ -9,9 +10,16 @@ namespace MvcMovie.Controllers
             return "Это моё стандартное действие...";
         }
 
-        public string Welcome()
+        //public string Welcome()
+        //{
+        //    return "Это действие при открытии Welcome...";
+        //}
+
+        public string Welcome(string name, int numTimes = -1)
         {
-            return "Это действие при открытии Welcome...";
+            if (string.IsNullOrEmpty(name) || numTimes == -1)
+                return "Необходимо ввести параметры";
+            return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes: {numTimes}");
         }
     }
 }
