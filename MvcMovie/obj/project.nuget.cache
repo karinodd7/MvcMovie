@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WkjCkXsHB+zc8KrcBvFETVMHGkGOdr30V7sAnR6bDL0PJOGozMhSdnqpndbwCMweiDpElq279yGhFlPOTSmkOg==",
+  "dgSpecHash": "YFmmIUtvQ4i084eUnFyWzlr94Q/zIPx3z5qMCtyBU7ZFBxF09IHjj1nU1DW8Bm1Fn795Be8xbR2uqff51H/YrA==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\Kari\\MvcMovieProject\\MvcMovie\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+  "projectFilePath": "E:\\Projects\\Kari\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quonc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
