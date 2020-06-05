@@ -35,3 +35,4 @@ E:\Projects\Kari\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.dll
 E:\Projects\Kari\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.pdb
 E:\Projects\Kari\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.genruntimeconfig.cache
 E:\Projects\Kari\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\MvcMovie.csproj.CopyComplete
+E:\Projects\Kari\MvcMovie\MvcMovie\obj\Debug\netcoreapp3.1\Razor\Views\HelloWorld\Index.cshtml.g.cs
