@@ -20,11 +20,19 @@ namespace MvcMovie.Controllers
             return View();
         }
 
-        public string Welcome(string name, int numTimes = -1)
+        public IActionResult Welcome(string name, int numTimes = -1)
         {
             if (string.IsNullOrEmpty(name) || numTimes == -1)
-                return "Необходимо ввести параметры";
-            return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes: {numTimes}");
+            {
+                ViewData["Message"] = "Отсутствуют параметры";
+                ViewData["NumTimes"] = 1;
+                return View();
+            }
+
+            ViewData["Message"] = "Hello " + name;
+            ViewData["NumTimes"] = numTimes;
+
+            return View();
         }
     }
 }
